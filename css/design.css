@@ -138,7 +138,11 @@ header ul li a{
 .contact-me:hover{
 	text-decoration:underline;
 }
-.article-i + .arti-blanco div p i{
+.article-i + .arti-naranja .contact-me{
+	color:rgba(255,255,255,.8);
+}
+.article-i + .arti-blanco div p i,
+.article-i + .arti-naranja div p i{
 	margin:10px auto;
 	font-size:3em;
 }
@@ -171,6 +175,64 @@ footer{
 }
 header ul li a .ul-li-a{
 	display:none;
+}
+
+.article-i > .content-pdfs article{
+	padding:0px 7.5px;
+	margin:0px auto;
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+.article-i > .content-pdfs > div{
+	padding:15px;
+}
+#buscar::placeholder{
+	transition: all 0.2s ease-in-out;
+}
+#buscar:focus::placeholder{
+	color:#f4623a;
+}
+#buscar:focus{
+	border: 1px solid #f4623a;
+	background-image:url("../img/searchiconv2.png");
+}
+#buscar{
+	display:block;
+	width:100%;
+	font-size: 16px;
+	padding: 12px 20px 12px 40px;
+	margin:0px;
+	outline: none;
+	border: 1px solid #a9a9a9;
+	transition: all 0.2s ease-in-out;
+	color:#f4623a;
+	background-image:url("../img/searchicon.png");
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+}
+.article-i > .content-pdfs article a:hover img{
+	filter: grayscale(100%);
+}
+.article-i > .content-pdfs article a{
+	margin:0px 7.5px;
+	width: calc(25% - 15px);
+	padding:0px;
+	display:block;
+}
+.article-i > .content-pdfs article a p{
+	margin:0px;
+	padding:5px;
+	background:#f4623a;
+	color: #fff;
+}
+.article-i > .content-pdfs article a img{
+	display:block;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:auto;
+	transition: all 0.2s ease-in-out;
 }
 @media (max-width:430px){
 	header .barra-menu{
