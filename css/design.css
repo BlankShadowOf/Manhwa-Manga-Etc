@@ -11,6 +11,18 @@
 a{
 	text-decoration:none;
 }
+
+a.manga:hover{
+	color: #fff;
+    background-color: #15181A;
+    border-color: #dae0e5;
+}
+a.manga{
+	color: #fff;
+    background-color: #343a40;
+	border-color: #f8f9fa;
+	margin-bottom:0px !important;
+}
 a.manhwa:hover{
 	color: #212529;
     background-color: #e2e6ea;
@@ -76,7 +88,7 @@ body > section{
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
-	height: 100vh;
+	/* height: 100vh; */
 	padding:0px 15px;
 }
 body section section > div{
@@ -87,6 +99,16 @@ body section section > div{
 }
 body > section section{
 	margin-top:80px;
+}
+header .barra-menu{
+	display:none;
+	padding:20px 15px 0px;
+	text-align:right;
+}
+header .barra-menu span{
+	margin:10px 15px;
+	color:#fff;
+	font-size:30px;
 }
 header ul{
 	text-align:right;
@@ -99,10 +121,37 @@ header ul li{
 header ul li a{
 	display:block;
 }
-.article-i{
-	padding:120px 0px;
+.arti-blanco div p{
+	color: #6c757d;
+}
+.article-i div{
+	text-align:center;
+}
+.arti-blanco{
+	background: #fff;
+	color:#black;
+}
+.arti-negro{
+	background:#343a40;
+	color:#fff;
+}
+.contact-me:hover{
+	text-decoration:underline;
+}
+.article-i + .arti-blanco div p i{
+	margin:10px auto;
+	font-size:3em;
+}
+.contact-me{
+	display:block;
+	color:#f4623a;
+}
+.arti-naranja{
 	background:#f4623a;
 	color:#fff;
+}
+.article-i{
+	padding:120px 0px;
 }
 .article-i div{
 	max-width:950px;
@@ -119,6 +168,27 @@ footer{
 	text-align:center;
 	color: #6c757d;
 	background:#f8f9fa;
+}
+header ul li a .ul-li-a{
+	display:none;
+}
+@media (max-width:430px){
+	header .barra-menu{
+		display:block;
+	}
+	header ul{
+		display:none;
+	}
+	header ul{
+		padding: 0px 15px;
+	}
+	header ul li{
+		display:block;
+	}
+	header ul li a .ul-li-a{
+		display:inline-block;
+		margin-left: 8px;
+	}
 }
 @media (max-width:600px){
 	h1{
