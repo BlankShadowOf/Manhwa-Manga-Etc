@@ -7,21 +7,24 @@
 	<meta name="author" content="Blank Shadow">
 	<title>Manhwa, manga y mas.</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<!-- HOJA DE ESTILOS -->
-	<link rel="stylesheet" href="css/design.css">
 	<!-- FUENTE -->
 	<link rel="stylesheet" href="css/all.min.css">
+	<!-- HOJA DE ESTILOS -->
+	<link rel="stylesheet" href="css/design.css">
 	<!-- ICONO DE PESTAÑA -->
 	<link rel="shortcut icon" href="img/blank_shadow.jpg">
 </head>
 <body class="contenedor-general">
 	<section>
 		<header>
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="#">Segundo</a></li>
-				<li><a href="#">Tercero</a></li>
-				<li><a href="#">Nosotros</a></li>
+			<div class="barra-menu">
+				<span class="fas fa-bars barra-menu-span"></span>
+			</div>
+			<ul class="barra-menu-ul">
+				<li><a href="index.html">Inicio<i class="fas fa-caret-left ul-li-a"></i></a></li>
+				<li><a href="#">Manhwas<i class="fas fa-caret-left ul-li-a"></i></a></li>
+				<li><a href="#">Mangas<i class="fas fa-caret-left ul-li-a"></i></a></li>
+				<li><a href="#">Nosotros<i class="fas fa-caret-left ul-li-a"></i></a></li>
 			</ul>
 		</header>
 		
@@ -35,17 +38,47 @@
 		</section>
 	</section>
 	
-	<article class="article-i">
+	<article class="article-i arti-naranja">
 		<div>
 			<h2>Disfruta de los mejores Manhwas</h2>
 			<hr class="blanco">
-			<p>Todos en formato PDF y en excelente calidad. Visualiza toda la lista disponible con un solo clic.<p>
-			<a href="https://paypal.me/BlankShadow" target="_blank" class="button manhwa" href="">¡MANHWAS!</a>
+			<p>Todos en formato PDF y en excelente calidad. Visualiza toda la lista disponible con un solo clic. Cada PDF contiene 10 capítulos, la razón es para mantener un orden.</p>
+			<a href="https://paypal.me/BlankShadow" target="_blank" class="button manhwa" href="">¡MANHWAS AQUÍ!</a>
+		</div>
+	</article>
+	
+	<article class="article-i arti-blanco">
+		<div>
+			<h2>Disfruta de los mejores Mangas</h2>
+			<hr class="naranja">
+			<p>Todos en formato PDF y en excelente calidad. Visualiza toda la lista disponible con un solo clic. Cada PDF representara 1 tomo del manga (cada tomo puede contener hasta 10 capítulos, dependera mucho de como estan publicados).</p>
+			<a href="https://paypal.me/BlankShadow" target="_blank" class="button manga" href="">¡MANGAS AQUÍ!</a>
+		</div>
+	</article>
+	
+	<article class="article-i arti-negro">
+		<div>
+			<h2>¿Quieres descargar esta plantilla web?</h2>
+			<a href="https://github.com/LuisAlfredoH/Manhwa-Manga-Etc" target="_blank" class="button manhwa" href="">¡DESCARGALO AQUÍ!</a>
+		</div>
+	</article>
+	
+	<article class="article-i arti-blanco">
+		<div>
+			<h2>¡Mantengámonos en contacto!</h2>
+			<hr class="naranja">
+			<p>Si quieres que un manga o manhwa este en PDF, no dudes en mandarme un correo electrónico indicandome el nombre del manga o manhwa, y si ya finalizo.</p>
+			<br/>
+			<p><i class="fas fa-envelope"></i><a class="contact-me" href="mailto:blankshadowtec@gmail.com">blankshadowtec<span style="font-family: Merriweather,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';">@</span>gmail.com</a></p>
 		</div>
 	</article>
 	
 	<footer>
 		<p>Copyright © 2020 - Blank Shadow</p>
 	</footer>
+	<!-- jQuery v3.4.1 -->
+	<script src="js/jquery.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
 </body>
 </html>
