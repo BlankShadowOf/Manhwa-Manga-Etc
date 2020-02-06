@@ -235,6 +235,41 @@ header ul li a .ul-li-a{
 	height:auto;
 	transition: all 0.2s ease-in-out;
 }
+.article-i-middle{
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.article-i-middle img{
+	max-width:800px;
+	width:100%;
+	height:auto;
+}
+.article-i-end div a{
+	display:inline-block;
+	position:relative;
+}
+.article-i-end div a img{
+	display:block;
+	max-width:500px;
+	width:100%;
+	margin:0px auto;
+	transition: all 0.3s ease-in-out;
+}
+.article-i-end div a:hover img{
+	opacity:0.6;
+}
+.article-i-end div a:hover p{
+	display:block;
+}
+.article-i-end div a p{
+	position:absolute;
+	background:#f4623a;
+	color:#fff;
+	padding:15px;
+	left:27.3%;
+	border:2px dashed #fff;
+	display:none;
+}
 @media (max-width:600px){
 	h1{
 		font-size:45px;
