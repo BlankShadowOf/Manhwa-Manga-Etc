@@ -11,5 +11,5 @@
 2. Kimetsu no Yaiba
 
 > ***MANHWAS***
-1. [Girl of the Wild's](https://luisalfredoh.github.io/Manhwa-Manga-Etc/manhwas/manhwa-gotw.html)
+1. [Girl of the Wild's](https://blankshadowof.github.io/Manhwa-Manga-Etc/manhwas/manhwa-gotw.html)
 2. DICE
